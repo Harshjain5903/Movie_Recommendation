@@ -1,7 +1,7 @@
 '''
-Author: Bappy Ahmed
-Email: entbappy73@gmail.com
-Date: 2021-Nov-15
+Author: Harsh Jain
+Email: harshsjain9@gmail.com
+Date: 2024-Nov-15
 '''
 
 import pickle
@@ -106,4 +106,5 @@ if st.button('Show Recommendation'):
                     st.caption("Poster not available") # Show a placeholder message
     else:
         # Handle case where recommend function returned empty lists (e.g., due to error)
+
         st.warning("Could not retrieve recommendations.")
